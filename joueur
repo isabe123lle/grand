@@ -1,0 +1,18 @@
+joueur  
+
+def initialize (nom, age)
+    @nom = nom
+    @age = age
+
+def bonjour
+    puts "bonjour je suis #(@nom), j'ai #(@age) ans|"
+
+end
+
+end
+
+
+joueur1 = joueur.new("jean", 10)
+joueur2 = joueur new("marc", 9)
+joueur1.bonjour
+joueur2.bonjour
